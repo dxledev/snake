@@ -1,0 +1,123 @@
+Start testing: Nov 09 03:46 PST
+----------------------------------------------------------
+1/5 Testing: game
+1/5 Test: game
+Command: "/home/dxle/builds/snake/build/game_tests"
+Directory: /home/dxle/builds/snake/build
+"game" start time: Nov 09 03:46 PST
+Output:
+----------------------------------------------------------
+********* Start testing of GameTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260810), arch unknown
+PASS   : GameTests::initTestCase()
+PASS   : GameTests::startsReadyWithThreeSegments()
+PASS   : GameTests::firstSteerStartsGame()
+PASS   : GameTests::reversalIsRejectedAgainstHeading()
+PASS   : GameTests::wallsKill()
+PASS   : GameTests::tailCellIsFreeUnlessGrowing()
+PASS   : GameTests::selfCollisionKills()
+PASS   : GameTests::eatingScoresGrowsAndSpeedsUp()
+PASS   : GameTests::intervalIsClamped()
+PASS   : GameTests::fullBoardEndsGame()
+PASS   : GameTests::pauseAndRestart()
+PASS   : GameTests::cleanupTestCase()
+Totals: 12 passed, 0 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of GameTests *********
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"game" end time: Nov 09 03:46 PST
+"game" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: theme
+2/5 Test: theme
+Command: "/home/dxle/builds/snake/build/theme_tests"
+Directory: /home/dxle/builds/snake/build
+"theme" start time: Nov 09 03:46 PST
+Output:
+----------------------------------------------------------
+********* Start testing of ThemeTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260810), arch unknown
+PASS   : ThemeTests::initTestCase()
+PASS   : ThemeTests::presetRoundTrips()
+PASS   : ThemeTests::alphaFirstAndQtRgbaKeepRgbChannels()
+PASS   : ThemeTests::importedPaletteIsContrastSafe()
+PASS   : ThemeTests::lightPaletteIsContrastSafe()
+PASS   : ThemeTests::foodSeparatesFromSnake()
+PASS   : ThemeTests::unknownKeysAndSourcesAreRejected()
+PASS   : ThemeTests::watcherReloadsAndKeepsLastValidTheme()
+PASS   : ThemeTests::watcherFollowsRepointedSymlinkAndRegeneratedPalette()
+PASS   : ThemeTests::watcherFollowsSymlinkChain()
+PASS   : ThemeTests::cleanupTestCase()
+Totals: 11 passed, 0 failed, 0 skipped, 0 blacklisted, 226ms
+********* Finished testing of ThemeTests *********
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"theme" end time: Nov 09 03:46 PST
+"theme" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: ui
+3/5 Test: ui
+Command: "/home/dxle/builds/snake/build/ui_tests"
+Directory: /home/dxle/builds/snake/build
+"ui" start time: Nov 09 03:46 PST
+Output:
+----------------------------------------------------------
+********* Start testing of UiTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 16.2.1 20260810), arch unknown
+PASS   : UiTests::initTestCase()
+PASS   : UiTests::keysSteerAndPause()
+PASS   : UiTests::helpIsAnInWindowModalAndPauses()
+PASS   : UiTests::cellsAreIntegerAndCentered()
+PASS   : UiTests::highScorePersists()
+PASS   : UiTests::themeChangeAndResizeWhileModalOpen()
+PASS   : UiTests::destroyWithModalOpenMidGame()
+PASS   : UiTests::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 1477ms
+********* Finished testing of UiTests *********
+<end of output>
+Test time =   1.50 sec
+----------------------------------------------------------
+Test Passed.
+"ui" end time: Nov 09 03:46 PST
+"ui" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/5 Testing: install
+4/5 Test: install
+Command: "/usr/bin/bash" "/home/dxle/builds/snake/tests/install_test.sh" "/home/dxle/builds/snake" "/home/dxle/builds/snake/build"
+Directory: /home/dxle/builds/snake/build
+"install" start time: Nov 09 03:46 PST
+Output:
+----------------------------------------------------------
+Installer checks passed.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"install" end time: Nov 09 03:46 PST
+"install" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: cli
+5/5 Test: cli
+Command: "/usr/bin/bash" "/home/dxle/builds/snake/tests/cli_test.sh" "/home/dxle/builds/snake/build/snake"
+Directory: /home/dxle/builds/snake/build
+"cli" start time: Nov 09 03:46 PST
+Output:
+----------------------------------------------------------
+CLI checks passed.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"cli" end time: Nov 09 03:46 PST
+"cli" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 09 03:46 PST

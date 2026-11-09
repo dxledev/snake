@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dxle/builds/snake/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

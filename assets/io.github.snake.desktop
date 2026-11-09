@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Snake
+Comment=A small, themeable game of Snake
+Exec=snake
+Icon=io.github.snake
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=snake;arcade;retro;
+StartupWMClass=io.github.snake
